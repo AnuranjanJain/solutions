@@ -44,7 +44,7 @@ This repository contains my solutions to daily LeetCode challenges.
 
 | Problem | Status | Video |
 |---------|--------|-------|
-| [Happy Number](https://leetcode.com/problems/happy-number/) | ✅ | 🎬 Coming soon |
+| [Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/) | ✅ | 🎬 Coming soon |
 
 
 
