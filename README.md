@@ -7,9 +7,9 @@
  
  | Metric | Value |
  |--------|-------|
- | Total Problems | 10 |
- | Days Completed | 5 |
- | Last Updated | 2025-05-04 21:23:59 |
+ | Total Problems | 12 |
+ | Days Completed | 6 |
+ | Last Updated | 2025-05-05 23:14:59 |
  
  ## Daily Challenges
  
@@ -48,6 +48,14 @@
  | [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/) | Easy | [✅](practice/day_5/palindrome_linked_list.py) |
  | [Valid Perfect Square](https://leetcode.com/problems/valid-perfect-square/) | Easy | [✅](practice/day_5/valid_perfect_square.py) |
  
+  ### Day 5
+ 
+ | Problem | Difficulty | Solution |
+ |---------|------------|----------|
+ | [Palindrome Linked List](https://leetcode.com/problems/happy-number) | Easy | [✅](practice/day_6/happy_number.py) |
+ | [Valid Perfect Square](https://leetcode.com/problems/remove-linked-list-elements) | Easy | [✅](practice/day_6/remove_linked_list_elements.py) |
+
+
  
  ## About
  
