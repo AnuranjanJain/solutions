@@ -44,7 +44,7 @@ This repository contains my solutions to daily LeetCode challenges.
 
 | Problem | Status | Video |
 |---------|--------|-------|
-| [Valid Perfect Square](https://leetcode.com/problems/valid-perfect-square/) | ✅ | 🎬 Coming soon |
+| [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) | ✅ | 🎬 Coming soon |
 
 
 
