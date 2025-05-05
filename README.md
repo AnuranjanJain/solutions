@@ -44,7 +44,7 @@ This repository contains my solutions to daily LeetCode challenges.
 
 | Problem | Status | Video |
 |---------|--------|-------|
-| [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) | ✅ | 🎬 Coming soon |
+| [Palindrome Number](https://leetcode.com/problems/palindrome-number/) | ✅ | 🎬 Coming soon |
 
 
 
