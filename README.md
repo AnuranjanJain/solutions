@@ -48,7 +48,7 @@
  | [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/) | Easy | [✅](practice/day_5/palindrome_linked_list.py) |
  | [Valid Perfect Square](https://leetcode.com/problems/valid-perfect-square/) | Easy | [✅](practice/day_5/valid_perfect_square.py) |
  
-  ### Day 5
+  ### Day 6
  
  | Problem | Difficulty | Solution |
  |---------|------------|----------|
