@@ -44,7 +44,7 @@ This repository contains my solutions to daily LeetCode challenges.
 
 | Problem | Status | Video |
 |---------|--------|-------|
-| [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/) | ✅ | 🎬 Coming soon |
+| [Valid Perfect Square](https://leetcode.com/problems/valid-perfect-square/) | ✅ | 🎬 Coming soon |
 
 
 
