@@ -44,7 +44,7 @@ This repository contains my solutions to daily LeetCode challenges.
 
 | Problem | Status | Video |
 |---------|--------|-------|
-| [Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/) | ✅ | 🎬 Coming soon |
+| [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/) | ✅ | 🎬 Coming soon |
 
 
 
