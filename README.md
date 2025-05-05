@@ -1,4 +1,4 @@
-@@ -0,0 +1,58 @@
+
  # LeetCode Daily Challenges
  
  This repository contains my solutions to daily LeetCode challenges.
@@ -52,8 +52,8 @@
  
  | Problem | Difficulty | Solution |
  |---------|------------|----------|
- | [Palindrome Linked List](https://leetcode.com/problems/happy-number) | Easy | [✅](practice/day_6/happy_number.py) |
- | [Valid Perfect Square](https://leetcode.com/problems/remove-linked-list-elements) | Easy | [✅](practice/day_6/remove_linked_list_elements.py) |
+ | [Happy Number](https://leetcode.com/problems/happy-number) | Easy | [✅](practice/day_6/happy_number.py) |
+ | [Remove LinkedList Elements](https://leetcode.com/problems/remove-linked-list-elements) | Easy | [✅](practice/day_6/remove_linked_list_elements.py) |
 
 
  
