@@ -4,48 +4,48 @@ This repository contains my solutions to daily LeetCode challenges.
 
 ## Progress
 
+
 | Metric | Value |
 |--------|-------|
-| Total Problems | 10 |
-| Days Completed | 5 |
-| Last Updated | 2025-05-05 22:05:42 |
+| Days Tracked | 6 |
+| Total Problems | 1 |
+| Problems Solved | 1 |
+| Completion | 100.0% |
+
 
 ## Daily Challenges
 
 ### Day 1
 
-| Problem | Difficulty | Solution |
-|---------|------------|----------|
-| [Missing Number](https://leetcode.com/problems/missing-number/) | Easy | [✅](practice/day_1/missing_number.py) |
-| [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | Easy | [✅](practice/day_1/reverse_linked_list.py) |
+| Problem | Status | Video |
+|---------|--------|-------|
 
 ### Day 2
 
-| Problem | Difficulty | Solution |
-|---------|------------|----------|
-| [Add Digits](https://leetcode.com/problems/add-digits/) | Easy | [✅](practice/day_2/add_digits.py) |
-| [Middle of the Linked List](https://leetcode.com/problems/middle-of-the-linked-list/) | Easy | [✅](practice/day_2/middle_of_the_linked_list.py) |
+| Problem | Status | Video |
+|---------|--------|-------|
 
 ### Day 3
 
-| Problem | Difficulty | Solution |
-|---------|------------|----------|
-| [Merge Two Sorted Lists](https://leetcode.com/problems/merge-two-sorted-lists/) | Easy | [✅](practice/day_3/merge_two_sorted_lists.py) |
-| [Perfect Number](https://leetcode.com/problems/perfect-number/) | Easy | [✅](practice/day_3/perfect_number.py) |
+| Problem | Status | Video |
+|---------|--------|-------|
 
 ### Day 4
 
-| Problem | Difficulty | Solution |
-|---------|------------|----------|
-| [Linked List Cycle](https://leetcode.com/problems/linked-list-cycle/) | Easy | [✅](practice/day_4/linked_list_cycle.py) |
-| [Palindrome Number](https://leetcode.com/problems/palindrome-number/) | Easy | [✅](practice/day_4/palindrome_number.py) |
+| Problem | Status | Video |
+|---------|--------|-------|
 
 ### Day 5
 
-| Problem | Difficulty | Solution |
-|---------|------------|----------|
-| [Palindrome Linked List](https://leetcode.com/problems/palindrome-linked-list/) | Easy | [✅](practice/day_5/palindrome_linked_list.py) |
-| [Valid Perfect Square](https://leetcode.com/problems/valid-perfect-square/) | Easy | [✅](practice/day_5/valid_perfect_square.py) |
+| Problem | Status | Video |
+|---------|--------|-------|
+
+### Day 6
+
+| Problem | Status | Video |
+|---------|--------|-------|
+| [Happy Number](https://leetcode.com/problems/happy-number/) | ✅ | 🎬 Coming soon |
+
 
 
 ## About
