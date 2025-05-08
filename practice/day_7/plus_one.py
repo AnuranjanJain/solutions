@@ -3,6 +3,7 @@
 # Day: 7
 # Difficulty: Easy
 # Date: 2025-05-06
+# Status: Solved
 
 class Solution:
     def plusOne(self, digits: List[int]) -> List[int]:

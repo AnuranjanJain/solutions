@@ -1,3 +1,10 @@
+# LeetCode Problem: Happy Number
+# URL: 
+# Day: 6
+# Difficulty: Medium
+# Date: 2025-05-05
+# Status: Solved
+
 class Solution:
     def isHappy(self, n: int) -> bool:
         seen = set()

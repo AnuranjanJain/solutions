@@ -5,17 +5,6 @@
 # Date: 2025-05-03
 # Status: Solved
 
-# Definition for singly-linked list.
-# class ListNode:
-#     def __init__(self, val=0, next=None):
-#         self.val = val
-#         self.next = next
-# Definition for singly-linked list.
-# class ListNode:
-#     def __init__(self, x):
-#         self.val = x
-#         self.next = None
-
 class Solution:
     def hasCycle(self, head: Optional[ListNode]) -> bool:
         slow = head
