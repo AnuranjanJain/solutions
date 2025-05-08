@@ -4,6 +4,8 @@
 # Difficulty: Easy
 # Date: 2025-05-03
 # Status: Solved
+# Solution for Linked List Cycle
+# https://leetcode.com/problems/linked-list-cycle/
 
 class Solution:
     def hasCycle(self, head: Optional[ListNode]) -> bool:

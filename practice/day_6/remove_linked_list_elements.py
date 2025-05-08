@@ -4,6 +4,8 @@
 # Difficulty: Medium
 # Date: 2025-05-05
 # Status: Solved
+# Solution for Remove Linked List Elements
+# 
 
 class Solution:
     def removeElements(self, head: Optional[ListNode], val: int) -> Optional[ListNode]:

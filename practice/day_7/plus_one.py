@@ -4,6 +4,8 @@
 # Difficulty: Easy
 # Date: 2025-05-06
 # Status: Solved
+# Solution for Plus One
+# https://leetcode.com/problems/plus-one/
 
 class Solution:
     def plusOne(self, digits: List[int]) -> List[int]:

@@ -4,6 +4,8 @@
 # Difficulty: Easy
 # Date: 2025-05-01
 # Status: Solved
+# Solution for Add Digits
+# https://leetcode.com/problems/add-digits/
 
 class Solution(object):
     def addDigits(self, num):

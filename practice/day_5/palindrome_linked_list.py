@@ -4,6 +4,8 @@
 # Difficulty: Easy
 # Date: 2025-05-04
 # Status: Solved
+# Solution for Palindrome Linked List
+# https://leetcode.com/problems/palindrome-linked-list/
 
 class Solution:
    def isPalindrome(self, head: Optional[ListNode]) -> bool:

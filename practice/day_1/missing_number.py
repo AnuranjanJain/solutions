@@ -4,6 +4,8 @@
 # Difficulty: Easy
 # Date: 2025-04-30
 # Status: Solved
+# Solution for Missing Number
+# https://leetcode.com/problems/missing-number/
 
 class Solution(object):
     def missingNumber(self, nums):

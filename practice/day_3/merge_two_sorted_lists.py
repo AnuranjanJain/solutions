@@ -4,6 +4,8 @@
 # Difficulty: Easy
 # Date: 2025-05-02
 # Status: Solved
+# Solution for Merge Two Sorted Lists
+# https://leetcode.com/problems/merge-two-sorted-lists/
 
 class Solution(object):
     def mergeTwoLists(self, list1, list2):

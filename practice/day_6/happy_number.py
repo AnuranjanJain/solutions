@@ -4,6 +4,8 @@
 # Difficulty: Medium
 # Date: 2025-05-05
 # Status: Solved
+# Solution for Happy Number
+# 
 
 class Solution:
     def isHappy(self, n: int) -> bool:

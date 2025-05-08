@@ -4,7 +4,6 @@
 # Difficulty: Medium
 # Date: 2025-05-07
 # Status: Solved
-
 # Solution for Excel Sheet Column Number
 # https://leetcode.com/problems/excel-sheet-column-number/description/
 
