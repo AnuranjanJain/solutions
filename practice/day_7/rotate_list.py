@@ -4,6 +4,8 @@
 # Difficulty: Medium
 # Date: 2025-05-06
 # Status: Solved
+# Solution for Rotate List
+# https://leetcode.com/problems/rotate-list/
 
 class Solution(object):
     def rotateRight(self, head, k):

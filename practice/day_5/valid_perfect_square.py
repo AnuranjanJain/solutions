@@ -4,6 +4,8 @@
 # Difficulty: Easy
 # Date: 2025-05-04
 # Status: Solved
+# Solution for Valid Perfect Square
+# https://leetcode.com/problems/valid-perfect-square/
 
 class Solution:
     def isPerfectSquare(self, num: int) -> bool:

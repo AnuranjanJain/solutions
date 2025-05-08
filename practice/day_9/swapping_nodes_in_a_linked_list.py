@@ -4,15 +4,9 @@
 # Difficulty: Medium
 # Date: 2025-05-08
 # Status: Solved
-
-# Solution for Swapping Nodes in a Linked List
+# Solution for Swapping Nodes In A Linked List
 # https://leetcode.com/problems/swapping-nodes-in-a-linked-list/description/
 
-# Definition for singly-linked list.
-# class ListNode(object):
-#     def __init__(self, val=0, next=None):
-#         self.val = val
-#         self.next = next
 class Solution(object):
     def swapNodes(self, head, k):
         """

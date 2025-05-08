@@ -21,6 +21,8 @@ def update_file_header(file_path, problem_name, url, day, difficulty, date):
 # Difficulty: {difficulty}
 # Date: {date}
 # Status: Solved
+# Solution for {problem_name}
+# {url}
 
 {actual_code}"""
     
@@ -52,6 +54,9 @@ def main():
                     url = ''
                     difficulty = 'Medium'  # default
                     
+                    # Try to extract from existing header first
+                    if '# LeetCode Problem:' in content:
+                        problem_name = content.split('# LeetCode Problem:')[1].split('\n')[0].strip()
                     if '# URL:' in content:
                         url = content.split('# URL:')[1].split('\n')[0].strip()
                     if '# Difficulty:' in content:

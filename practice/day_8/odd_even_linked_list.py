@@ -4,8 +4,6 @@
 # Difficulty: Medium
 # Date: 2025-05-07
 # Status: Solved
-
-
 # Solution for Odd Even Linked List
 # https://leetcode.com/problems/odd-even-linked-list/description/
 
