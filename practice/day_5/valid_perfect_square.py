@@ -3,9 +3,7 @@
 # Day: 5
 # Difficulty: Easy
 # Date: 2025-05-04
-
-# Your solution will go here
-# Remember to test your solution before submitting!
+# Status: Solved
 
 class Solution:
     def isPerfectSquare(self, num: int) -> bool:

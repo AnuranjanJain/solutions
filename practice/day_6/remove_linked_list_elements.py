@@ -1,8 +1,10 @@
-# Definition for singly-linked list.
-# class ListNode:
-#     def __init__(self, val=0, next=None):
-#         self.val = val
-#         self.next = next
+# LeetCode Problem: Remove Linked List Elements
+# URL: 
+# Day: 6
+# Difficulty: Medium
+# Date: 2025-05-05
+# Status: Solved
+
 class Solution:
     def removeElements(self, head: Optional[ListNode], val: int) -> Optional[ListNode]:
         dummy = ListNode(0)
