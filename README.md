@@ -6,11 +6,18 @@ This repository tracks my daily LeetCode practice problems.
 
 | Metric | Value |
 |--------|-------|
-| Total Problems | 18 |
-| Days Completed | 9 |
-| Last Updated | 2025-05-08 18:28:07 |
+| Total Problems | 20 |
+| Days Completed | 10 |
+| Last Updated | 2025-05-09 16:02:54 |
 
 ## Problems
+
+### Day 10
+ 
+| Problem | Difficulty | Solution |
+|---------|------------|----------|
+| [Bulb Switcher](https://leetcode.com/problems/bulb-switcher/) | Medium | [✅](practice/day_10/bulb_switcher.py) |
+| [Delete the Middle Node of a Linked List](https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/description/) | Medium | [✅](practice/day_10/delete_the_middle_node_of_a_linked_list.py) |
 
 ### Day 9
  
@@ -32,6 +39,13 @@ This repository tracks my daily LeetCode practice problems.
 |---------|------------|----------|
 | [Plus One](https://leetcode.com/problems/plus-one/) | Easy | [✅](practice/day_7/plus_one.py) |
 | [Rotate List](https://leetcode.com/problems/rotate-list/) | Medium | [✅](practice/day_7/rotate_list.py) |
+
+### Day 6
+ 
+| Problem | Difficulty | Solution |
+|---------|------------|----------|
+| [Happy Number](https://leetcode.com/problems/happy-number/description/) | Easy | [✅](practice/day_6/happy_number.py) |
+| [Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/description/) | Easy | [✅](practice/day_6/remove_linked_list_elements.py) |
 
 ### Day 5
  

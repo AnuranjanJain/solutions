@@ -1,11 +1,11 @@
 # LeetCode Problem: Remove Linked List Elements
-# URL: 
+# URL: https://leetcode.com/problems/remove-linked-list-elements/description/
 # Day: 6
 # Difficulty: Medium
 # Date: 2025-05-05
 # Status: Solved
 # Solution for Remove Linked List Elements
-# 
+# https://leetcode.com/problems/remove-linked-list-elements/description/
 
 class Solution:
     def removeElements(self, head: Optional[ListNode], val: int) -> Optional[ListNode]:
