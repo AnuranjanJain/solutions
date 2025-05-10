@@ -4,11 +4,8 @@
 # Difficulty: Medium
 # Date: 2025-05-09
 # Status: Solved
-
-
 # Solution for Bulb Switcher
 # https://leetcode.com/problems/bulb-switcher/
-
 
 import math
 class Solution:

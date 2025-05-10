@@ -6,18 +6,25 @@ This repository tracks my daily LeetCode practice problems.
 
 | Metric | Value |
 |--------|-------|
-| Total Problems | 20 |
-| Days Completed | 10 |
-| Last Updated | 2025-05-09 16:02:54 |
+| Total Problems | 22 |
+| Days Completed | 11 |
+| Last Updated | 2025-05-10 15:43:39 |
 
 ## Problems
+
+### Day 11
+ 
+| Problem | Difficulty | Solution |
+|---------|------------|----------|
+| [Factorial Trailing Zeroes](https://leetcode.com/problems/factorial-trailing-zeroes/description/) | Medium | [✅](practice/day_11/factorial_trailing_zeroes.py) |
+| [Remove Nth Node From End Of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/description/) | Medium | [✅](practice/day_11/remove_nth_node_from_end_of_list.py) |
 
 ### Day 10
  
 | Problem | Difficulty | Solution |
 |---------|------------|----------|
 | [Bulb Switcher](https://leetcode.com/problems/bulb-switcher/) | Medium | [✅](practice/day_10/bulb_switcher.py) |
-| [Delete the Middle Node of a Linked List](https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/description/) | Medium | [✅](practice/day_10/delete_the_middle_node_of_a_linked_list.py) |
+| [Delete The Middle Node Of A Linked List](https://leetcode.com/problems/delete-the-middle-node-of-a-linked-list/description/) | Medium | [✅](practice/day_10/delete_the_middle_node_of_a_linked_list.py) |
 
 ### Day 9
  
