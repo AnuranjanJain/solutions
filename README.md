@@ -6,11 +6,18 @@ This repository tracks my daily LeetCode practice problems.
 
 | Metric | Value |
 |--------|-------|
-| Total Problems | 22 |
-| Days Completed | 11 |
-| Last Updated | 2025-05-10 15:43:39 |
+| Total Problems | 24 |
+| Days Completed | 12 |
+| Last Updated | 2025-05-11 16:54:41 |
 
 ## Problems
+
+### Day 12
+ 
+| Problem | Difficulty | Solution |
+|---------|------------|----------|
+| [Count Odd Numbers In An Interval Range](https://leetcode.com/problems/count-odd-numbers-in-an-interval-range/description/) | Easy | [✅](practice/day_12/count_odd_numbers_in_an_interval_range.py) |
+| [Insert Greatest Common Divisors In Linked List](https://leetcode.com/problems/insert-greatest-common-divisors-in-linked-list/submissions/1630980480/) | Medium | [✅](practice/day_12/insert_greatest_common_divisors_in_linked_list.py) |
 
 ### Day 11
  
