@@ -254,6 +254,10 @@ This project organizes my LeetCode practice by day, tracking progress over time.
         
         print(f"Updated README.md with {len(problems)} new problems for Day {custom_day if custom_day is not None else new_days_completed}")
         print(f"Created solution files in {new_day_path}")
+        
+        # After creating the problem files and updating the README,
+        # also create or update the day-specific README
+        generate_day_readme(new_day_path, custom_day if custom_day is not None else new_days_completed)
     except Exception as e:
         print(f"Error updating repository: {e}")
 
@@ -492,6 +496,10 @@ def upload_to_github():
     # First, rebuild the README
     print("Rebuilding README file...")
     rebuild_readme()
+    
+    # Generate day-specific READMEs
+    print("Generating day-specific README files...")
+    generate_all_day_readmes()
     
     try:
         # Check if git is installed
@@ -1541,7 +1549,7 @@ def display_menu():
     Display the main menu and get user choice.
     
     Returns:
-        User's menu selection as a string ('1' to '10')
+        User's menu selection as a string ('1' to '11')
     """
     print("\n" + "=" * 60)
     print("   🏆 LEETCODE PRACTICE TRACKER 🏆")
@@ -1552,18 +1560,19 @@ def display_menu():
     print("[4] View statistics")
     print("[5] Generate problem explanations")
     print("[6] Regenerate ALL explanations")
-    print("[7] Configure API keys")
-    print("[8] Select AI service")
-    print("[9] Upload to GitHub")
-    print("[10] Exit")
+    print("[7] Generate day-specific READMEs")
+    print("[8] Configure API keys")
+    print("[9] Select AI service")
+    print("[10] Upload to GitHub")
+    print("[11] Exit")
     
     while True:
         try:
-            choice = input("\nEnter your choice (1-10): ").strip()
-            if choice in ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10']:
+            choice = input("\nEnter your choice (1-11): ").strip()
+            if choice in ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10', '11']:
                 return choice
             else:
-                print("Invalid choice. Please enter a number between 1 and 10.")
+                print("Invalid choice. Please enter a number between 1 and 11.")
         except Exception:
             print("Invalid input. Please try again.")
 
@@ -1846,18 +1855,22 @@ def menu_based_main():
             print("\nRegenerating ALL problem explanations...")
             regenerate_all_explanations(True)
             
-        elif choice == '7':  # Configure API keys
+        elif choice == '7':  # Generate day-specific READMEs
+            print("\nGenerating day-specific README files...")
+            generate_all_day_readmes()
+            
+        elif choice == '8':  # Configure API keys
             print("\nConfiguring API keys...")
             setup_api_keys()
             
-        elif choice == '8':  # Select AI service
+        elif choice == '9':  # Select AI service
             print("\nSelecting AI service...")
             setup_ai_service()
             
-        elif choice == '9':  # Upload to GitHub
+        elif choice == '10':  # Upload to GitHub
             upload_to_github()
             
-        elif choice == '10':  # Exit
+        elif choice == '11':  # Exit
             print("\nExiting LeetCode Practice Tracker. Happy coding!")
             break
 
@@ -1893,6 +1906,129 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
+def generate_day_readme(day_path, day_num):
+    """
+    Generate a README.md file for a specific day directory.
+    
+    Args:
+        day_path: Path to the day directory
+        day_num: Day number
+    
+    Returns:
+        True if successful, False otherwise
+    """
+    try:
+        # Collect problem files
+        problems = []
+        
+        for filename in os.listdir(day_path):
+            if filename.endswith('.py'):
+                problem_path = os.path.join(day_path, filename)
+                md_path = os.path.splitext(problem_path)[0] + '.md'
+                has_explanation = os.path.exists(md_path)
+                
+                # Extract info from Python file
+                with open(problem_path, 'r', encoding='utf-8') as f:
+                    content = f.read()
+                    name_match = re.search(r'# LeetCode Problem: (.*)', content)
+                    url_match = re.search(r'# URL: (.*)', content)
+                    difficulty_match = re.search(r'# Difficulty: (.*)', content)
+                    
+                    problem_name = name_match.group(1).strip() if name_match else os.path.splitext(filename)[0].replace('_', ' ').title()
+                    url = url_match.group(1).strip() if url_match else ""
+                    difficulty = difficulty_match.group(1).strip() if difficulty_match else "Medium"
+                
+                problems.append({
+                    'name': problem_name,
+                    'filename': filename,
+                    'url': url,
+                    'difficulty': difficulty,
+                    'has_explanation': has_explanation
+                })
+        
+        # Sort problems alphabetically
+        problems.sort(key=lambda x: x['name'])
+        
+        # Create README content
+        content = f"""# Day {day_num} - LeetCode Problems
+
+This directory contains solutions to the following LeetCode problems:
+
+| Problem | Difficulty | Solution | Explanation |
+|---------|------------|----------|-------------|
+"""
+        
+        # Add problem entries
+        for problem in problems:
+            solution_link = f"[Code]({problem['filename']})"
+            explanation_link = f"[Explanation]({os.path.splitext(problem['filename'])[0] + '.md'})" if problem['has_explanation'] else "N/A"
+            
+            content += f"| [{problem['name']}]({problem['url']}) | {problem['difficulty']} | {solution_link} | {explanation_link} |\n"
+        
+        # Add footer with correct GitHub link
+        content += f"""
+## Daily Progress
+
+Each solution includes:
+- Complete Python implementation
+- Problem description and constraints
+- Time and space complexity analysis
+
+Created with [LeetCode Practice Tracker](https://github.com/AnuranjanJain/solutions)
+"""
+        
+        # Write README file
+        readme_path = os.path.join(day_path, 'README.md')
+        with open(readme_path, 'w', encoding='utf-8') as f:
+            f.write(content)
+            
+        return True
+    
+    except Exception as e:
+        print(f"Error generating README for day {day_num}: {e}")
+        return False
+
+
+def generate_all_day_readmes():
+    """
+    Generate README.md files for all day directories.
+    
+    This creates a nicely formatted README in each day folder that links
+    to both the code files and explanation markdown files.
+    """
+    practice_dir = os.path.join(os.getcwd(), 'practice')
+    if not os.path.exists(practice_dir):
+        print("Error: Practice directory not found")
+        return
+    
+    success_count = 0
+    failed_count = 0
+    
+    try:
+        for day_dir in sorted(os.listdir(practice_dir)):
+            if day_dir.startswith('day_'):
+                try:
+                    day_num = int(day_dir.split('_')[1])
+                    day_path = os.path.join(practice_dir, day_dir)
+                    
+                    print(f"Generating README for {day_dir}...")
+                    if generate_day_readme(day_path, day_num):
+                        success_count += 1
+                    else:
+                        failed_count += 1
+                        
+                except (ValueError, OSError) as e:
+                    print(f"Error processing directory {day_dir}: {e}")
+                    failed_count += 1
+        
+        print(f"\nDay README generation summary:")
+        print(f"  Successful: {success_count}")
+        print(f"  Failed: {failed_count}")
+    
+    except Exception as e:
+        print(f"Error generating day READMEs: {e}")
 
 
 def setup_ai_service():
