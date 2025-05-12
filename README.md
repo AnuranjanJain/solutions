@@ -6,25 +6,32 @@ This repository tracks my daily LeetCode practice problems.
 
 | Metric | Value |
 |--------|-------|
-| Total Problems | 24 |
-| Days Completed | 12 |
-| Last Updated | 2025-05-11 16:54:41 |
+| Total Problems | 26 |
+| Days Completed | 13 |
+| Last Updated | 2025-05-12 17:35:07 |
 
 ## Problems
+
+### Day 13
+ 
+| Problem | Difficulty | Solution |
+|---------|------------|----------|
+| [Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/description/) | Medium | [✅](practice/day_13/remove_duplicates_from_sorted_list_ii.py) |
+| [Sign of the Product of an Array](https://leetcode.com/problems/sign-of-the-product-of-an-array/description/) | Easy | [✅](practice/day_13/sign_of_the_product_of_an_array.py) |
 
 ### Day 12
  
 | Problem | Difficulty | Solution |
 |---------|------------|----------|
-| [Count Odd Numbers In An Interval Range](https://leetcode.com/problems/count-odd-numbers-in-an-interval-range/description/) | Easy | [✅](practice/day_12/count_odd_numbers_in_an_interval_range.py) |
+| [Count Odd Numbers In An Interval Range](https://leetcode.com/problems/count-odd-numbers-in-an-interval-range/description/) | Medium | [✅](practice/day_12/count_odd_numbers_in_an_interval_range.py) |
 | [Insert Greatest Common Divisors In Linked List](https://leetcode.com/problems/insert-greatest-common-divisors-in-linked-list/submissions/1630980480/) | Medium | [✅](practice/day_12/insert_greatest_common_divisors_in_linked_list.py) |
 
 ### Day 11
  
 | Problem | Difficulty | Solution |
 |---------|------------|----------|
-| [Factorial Trailing Zeroes](https://leetcode.com/problems/factorial-trailing-zeroes/description/) | Medium | [✅](practice/day_11/factorial_trailing_zeroes.py) |
-| [Remove Nth Node From End Of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/description/) | Medium | [✅](practice/day_11/remove_nth_node_from_end_of_list.py) |
+| [Factorial Trailing Zeroes]() | Medium | [✅](practice/day_11/factorial_trailing_zeroes.py) |
+| [Remove Nth Node From End Of List]() | Medium | [✅](practice/day_11/remove_nth_node_from_end_of_list.py) |
 
 ### Day 10
  
@@ -44,7 +51,7 @@ This repository tracks my daily LeetCode practice problems.
  
 | Problem | Difficulty | Solution |
 |---------|------------|----------|
-| [Excel Sheet Column Number](https://leetcode.com/problems/excel-sheet-column-number/description/) | Easy | [✅](practice/day_8/excel_sheet_column_number.py) |
+| [Excel Sheet Column Number](https://leetcode.com/problems/excel-sheet-column-number/description/) | Medium | [✅](practice/day_8/excel_sheet_column_number.py) |
 | [Odd Even Linked List](https://leetcode.com/problems/odd-even-linked-list/description/) | Medium | [✅](practice/day_8/odd_even_linked_list.py) |
 
 ### Day 7
@@ -58,8 +65,8 @@ This repository tracks my daily LeetCode practice problems.
  
 | Problem | Difficulty | Solution |
 |---------|------------|----------|
-| [Happy Number](https://leetcode.com/problems/happy-number/description/) | Easy | [✅](practice/day_6/happy_number.py) |
-| [Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/description/) | Easy | [✅](practice/day_6/remove_linked_list_elements.py) |
+| [Happy Number](https://leetcode.com/problems/happy-number/description/) | Medium | [✅](practice/day_6/happy_number.py) |
+| [Remove Linked List Elements](https://leetcode.com/problems/remove-linked-list-elements/description/) | Medium | [✅](practice/day_6/remove_linked_list_elements.py) |
 
 ### Day 5
  
