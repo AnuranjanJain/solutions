@@ -4,8 +4,8 @@ This directory contains solutions to the following LeetCode problems:
 
 | Problem | Difficulty | Solution | Explanation |
 |---------|------------|----------|-------------|
-| [Factorial Trailing Zeroes]() | Medium | [Code](factorial_trailing_zeroes.py) | N/A |
-| [Remove Nth Node From End Of List]() | Medium | [Code](remove_nth_node_from_end_of_list.py) | N/A |
+| [Factorial Trailing Zeroes](https://leetcode.com/problems/factorial-trailing-zeroes/description/) | Medium | [Code](factorial_trailing_zeroes.py) | [Explanation](factorial_trailing_zeroes.md) |
+| [Remove Nth Node From End Of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/description/) | Medium | [Code](remove_nth_node_from_end_of_list.py) | [Explanation](remove_nth_node_from_end_of_list.md) |
 
 ## Daily Progress
 

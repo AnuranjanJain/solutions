@@ -6,11 +6,18 @@ This repository tracks my daily LeetCode practice problems.
 
 | Metric | Value |
 |--------|-------|
-| Total Problems | 26 |
-| Days Completed | 13 |
-| Last Updated | 2025-05-12 18:40:36 |
+| Total Problems | 28 |
+| Days Completed | 14 |
+| Last Updated | 2025-05-13 23:41:47 |
 
 ## Problems
+
+### Day 14
+ 
+| Problem | Difficulty | Solution |
+|---------|------------|----------|
+| [Partition List](https://leetcode.com/problems/partition-list/) | Medium | [✅](practice/day_14/partition_list.py) |
+| [Reverse Integer](https://leetcode.com/problems/reverse-integer/submissions/1633029772/) | Medium | [✅](practice/day_14/reverse_integer.py) |
 
 ### Day 13
  
@@ -30,8 +37,8 @@ This repository tracks my daily LeetCode practice problems.
  
 | Problem | Difficulty | Solution |
 |---------|------------|----------|
-| [Factorial Trailing Zeroes]() | Medium | [✅](practice/day_11/factorial_trailing_zeroes.py) |
-| [Remove Nth Node From End Of List]() | Medium | [✅](practice/day_11/remove_nth_node_from_end_of_list.py) |
+| [Factorial Trailing Zeroes](https://leetcode.com/problems/factorial-trailing-zeroes/description/) | Medium | [✅](practice/day_11/factorial_trailing_zeroes.py) |
+| [Remove Nth Node From End Of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/description/) | Medium | [✅](practice/day_11/remove_nth_node_from_end_of_list.py) |
 
 ### Day 10
  

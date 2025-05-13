@@ -103,6 +103,10 @@ def update_leetcode_repo(problems, custom_day=None):
         custom_day: Optional custom day number to use instead of incrementing the current value
     """
     try:
+        print("\nDEBUG: update_leetcode_repo started")
+        print(f"DEBUG: Problems: {problems}")
+        print(f"DEBUG: Custom day: {custom_day}")
+        
         # Read the current README.md
         if not os.path.exists('readme.md'):
             print("Error: readme.md not found. Creating a new one...")
@@ -125,9 +129,11 @@ This repository tracks my daily LeetCode practice problems.
 
 This project organizes my LeetCode practice by day, tracking progress over time.
 """)
+            print("DEBUG: Created new readme.md file")
         
         with open('readme.md', 'r', encoding='utf-8') as f:
             readme_content = f.read()
+            print("DEBUG: Read readme.md content")
         
         # Parse current progress metrics
         total_problems_match = re.search(r'\| Total Problems \| (\d+) \|', readme_content)
@@ -139,6 +145,8 @@ This project organizes my LeetCode practice by day, tracking progress over time.
         
         total_problems = int(total_problems_match.group(1))
         days_completed = int(days_completed_match.group(1))
+        print(f"DEBUG: Current total problems: {total_problems}")
+        print(f"DEBUG: Current days completed: {days_completed}")
         
         # Update progress metrics
         new_total_problems = total_problems + len(problems)
@@ -148,6 +156,8 @@ This project organizes my LeetCode practice by day, tracking progress over time.
             new_days_completed = max(custom_day, days_completed)
         else:
             new_days_completed = days_completed + 1
+        print(f"DEBUG: New total problems: {new_total_problems}")
+        print(f"DEBUG: New days completed: {new_days_completed}")
             
         # Get current date and time
         current_date = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
@@ -155,8 +165,15 @@ This project organizes my LeetCode practice by day, tracking progress over time.
         # Create new day directory
         new_day = f"day_{custom_day if custom_day is not None else new_days_completed}"
         new_day_path = os.path.join("practice", new_day)
+        print(f"DEBUG: Creating new day directory: {new_day_path}")
         os.makedirs(new_day_path, exist_ok=True)
         
+        # Check if the directory was created
+        if os.path.exists(new_day_path):
+            print(f"DEBUG: Directory created successfully")
+        else:
+            print(f"DEBUG: Error creating directory {new_day_path}")
+            
         # Create new day section content for README
         new_day_section = f"""
 ### Day {custom_day if custom_day is not None else new_days_completed}
@@ -166,27 +183,48 @@ This project organizes my LeetCode practice by day, tracking progress over time.
 """
         
         # Process each problem
-        for problem in problems:
+        for i, problem in enumerate(problems):
             problem_name = problem['name']
             problem_url = problem['url']
             difficulty = problem['difficulty']
             filename = problem['filename']
+            print(f"DEBUG: Processing problem {i+1}/{len(problems)}: {problem_name}")
             
             # Create solution file if it doesn't exist
             solution_path = os.path.join(new_day_path, filename)
+            print(f"DEBUG: Solution path: {solution_path}")
+            
             if not os.path.exists(solution_path):
-                with open(solution_path, 'w', encoding='utf-8') as f:
-                    f.write(f"""# LeetCode Problem: {problem_name}
+                print(f"DEBUG: Creating new solution file")
+                try:
+                    with open(solution_path, 'w', encoding='utf-8') as f:
+                        content = f"""# LeetCode Problem: {problem_name}
 # URL: {problem_url}
 # Day: {custom_day if custom_day is not None else new_days_completed}
 # Difficulty: {difficulty}
 # Date: {datetime.datetime.now().strftime('%Y-%m-%d')}
 # Status: Solved
 
-""")
+"""
+                        f.write(content)
+                        print(f"DEBUG: Successfully wrote content to {solution_path}")
+                except Exception as e:
+                    print(f"DEBUG: Error writing to file: {e}")
+                    import traceback
+                    traceback.print_exc()
+            else:
+                print(f"DEBUG: Solution file already exists, skipping creation")
+            
+            # Check if the file was created
+            if os.path.exists(solution_path):
+                print(f"DEBUG: Verified file exists: {solution_path}")
+            else:
+                print(f"DEBUG: ERROR: File was not created: {solution_path}")
             
             # Add entry to the README section
             new_day_section += f"| [{problem_name}]({problem_url}) | {difficulty} | [✅](practice/{new_day}/{filename}) |\n"
+        
+        print("DEBUG: Updating README content")
         
         # Update README content - Progress metrics
         readme_content = re.sub(
@@ -215,6 +253,7 @@ This project organizes my LeetCode practice by day, tracking progress over time.
         
         header = header_match.group(1) + "## Problems\n"
         footer = footer_match.group(0)
+        print("DEBUG: Extracted header and footer from README")
         
         # Find all day sections
         day_sections = []
@@ -224,6 +263,7 @@ This project organizes my LeetCode practice by day, tracking progress over time.
         
         # Find existing day sections from the README
         existing_sections = re.findall(r'### Day (\d+)[\s\S]*?(?=### Day \d+|\n## About)', readme_content + "\n## About")
+        print(f"DEBUG: Found {len(existing_sections)} existing day sections")
         
         # Process existing sections
         for section in existing_sections:
@@ -232,6 +272,7 @@ This project organizes my LeetCode practice by day, tracking progress over time.
                 day_num = int(day_match.group(1))
                 # Skip if we're replacing this day
                 if day_num == (custom_day if custom_day is not None else new_days_completed):
+                    print(f"DEBUG: Skipping existing day {day_num} section as we're replacing it")
                     continue
                 # Find the content portion
                 content_match = re.search(r'(### Day \d+[\s\S]*?)(?=### Day \d+|\n## About|$)', section)
@@ -241,6 +282,7 @@ This project organizes my LeetCode practice by day, tracking progress over time.
         
         # Sort day sections by day number in descending order
         day_sections.sort(key=lambda x: x[0], reverse=True)
+        print(f"DEBUG: Sorted {len(day_sections)} day sections")
         
         # Combine all parts
         updated_readme = header
@@ -249,17 +291,25 @@ This project organizes my LeetCode practice by day, tracking progress over time.
         updated_readme += "\n" + footer
         
         # Write updated README
+        print("DEBUG: Writing updated README")
         with open('readme.md', 'w', encoding='utf-8') as f:
             f.write(updated_readme)
+            print("DEBUG: README successfully updated")
         
         print(f"Updated README.md with {len(problems)} new problems for Day {custom_day if custom_day is not None else new_days_completed}")
         print(f"Created solution files in {new_day_path}")
         
         # After creating the problem files and updating the README,
         # also create or update the day-specific README
+        print("DEBUG: Generating day-specific README")
         generate_day_readme(new_day_path, custom_day if custom_day is not None else new_days_completed)
+        print("DEBUG: update_leetcode_repo function completed successfully")
+        return True
     except Exception as e:
         print(f"Error updating repository: {e}")
+        import traceback
+        traceback.print_exc()
+        return False
 
 
 def rebuild_readme():
