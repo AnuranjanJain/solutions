@@ -6,11 +6,18 @@ This repository tracks my daily LeetCode practice problems.
 
 | Metric | Value |
 |--------|-------|
-| Total Problems | 28 |
-| Days Completed | 14 |
-| Last Updated | 2025-05-13 23:41:47 |
+| Total Problems | 30 |
+| Days Completed | 15 |
+| Last Updated | 2025-05-14 16:34:29 |
 
 ## Problems
+
+### Day 15
+ 
+| Problem | Difficulty | Solution |
+|---------|------------|----------|
+| [Add Two Numbers](https://leetcode.com/problems/add-two-numbers/description/) | Medium | [✅](practice/day_15/add_two_numbers.py) |
+| [Excel Sheet Column Title](https://leetcode.com/problems/excel-sheet-column-title/) | Easy | [✅](practice/day_15/excel_sheet_column_title.py) |
 
 ### Day 14
  
