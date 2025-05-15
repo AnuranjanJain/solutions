@@ -6,11 +6,18 @@ This repository tracks my daily LeetCode practice problems.
 
 | Metric | Value |
 |--------|-------|
-| Total Problems | 30 |
-| Days Completed | 15 |
-| Last Updated | 2025-05-14 16:34:29 |
+| Total Problems | 32 |
+| Days Completed | 16 |
+| Last Updated | 2025-05-15 14:33:30 |
 
 ## Problems
+
+### Day 16
+ 
+| Problem | Difficulty | Solution |
+|---------|------------|----------|
+| [Delete Node in a Linked List](https://leetcode.com/problems/delete-node-in-a-linked-list/description/) | Medium | [✅](practice/day_16/delete_node_in_a_linked_list.py) |
+| [Sum of Square Numbers](https://leetcode.com/problems/sum-of-square-numbers) | Medium | [✅](practice/day_16/sum_of_square_numbers.py) |
 
 ### Day 15
  
