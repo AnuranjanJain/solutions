@@ -6,11 +6,18 @@ This repository tracks my daily LeetCode practice problems.
 
 | Metric | Value |
 |--------|-------|
-| Total Problems | 32 |
-| Days Completed | 16 |
-| Last Updated | 2025-05-15 14:33:30 |
+| Total Problems | 34 |
+| Days Completed | 17 |
+| Last Updated | 2025-05-16 20:06:16 |
 
 ## Problems
+
+### Day 17
+ 
+| Problem | Difficulty | Solution |
+|---------|------------|----------|
+| [Min Stack](https://leetcode.com/problems/min-stack/description/) | Medium | [✅](practice/day_17/min_stack.py) |
+| [Two Sum](https://leetcode.com/problems/two-sum) | Easy | [✅](practice/day_17/two_sum.py) |
 
 ### Day 16
  
