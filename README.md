@@ -6,11 +6,18 @@ This repository tracks my daily LeetCode practice problems.
 
 | Metric | Value |
 |--------|-------|
-| Total Problems | 34 |
-| Days Completed | 17 |
-| Last Updated | 2025-05-16 20:06:16 |
+| Total Problems | 36 |
+| Days Completed | 18 |
+| Last Updated | 2025-05-17 17:02:17 |
 
 ## Problems
+
+### Day 18
+ 
+| Problem | Difficulty | Solution |
+|---------|------------|----------|
+| [Contains Duplicate](https://leetcode.com/problems/contains-duplicate) | Easy | [✅](practice/day_18/contains_duplicate.py) |
+| [Implement Queue using Stacks](https://leetcode.com/problems/implement-queue-using-stacks/description/) | Easy | [✅](practice/day_18/implement_queue_using_stacks.py) |
 
 ### Day 17
  
