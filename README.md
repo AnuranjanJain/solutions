@@ -6,11 +6,18 @@ This repository tracks my daily LeetCode practice problems.
 
 | Metric | Value |
 |--------|-------|
-| Total Problems | 36 |
-| Days Completed | 18 |
-| Last Updated | 2025-05-17 17:02:31 |
+| Total Problems | 38 |
+| Days Completed | 19 |
+| Last Updated | 2025-05-18 21:34:47 |
 
 ## Problems
+
+### Day 19
+ 
+| Problem | Difficulty | Solution |
+|---------|------------|----------|
+| [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/) | Easy | [✅](practice/day_19/best_time_to_buy_and_sell_stock.py) |
+| [Valid Parentheses](https://leetcode.com/problems/valid-parentheses) | Easy | [✅](practice/day_19/valid_parentheses.py) |
 
 ### Day 18
  
