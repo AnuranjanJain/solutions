@@ -6,11 +6,18 @@ This repository tracks my daily LeetCode practice problems.
 
 | Metric | Value |
 |--------|-------|
-| Total Problems | 38 |
-| Days Completed | 19 |
-| Last Updated | 2025-05-18 21:34:47 |
+| Total Problems | 40 |
+| Days Completed | 20 |
+| Last Updated | 2025-05-19 13:21:17 |
 
 ## Problems
+
+### Day 20
+ 
+| Problem | Difficulty | Solution |
+|---------|------------|----------|
+| [Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation/description/) | Medium | [✅](practice/day_20/evaluate_reverse_polish_notation.py) |
+| [Find Greatest Common Divisor of Array](https://leetcode.com/problems/find-greatest-common-divisor-of-array/description/) | Easy | [✅](practice/day_20/find_greatest_common_divisor_of_array.py) |
 
 ### Day 19
  
