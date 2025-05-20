@@ -6,11 +6,18 @@ This repository tracks my daily LeetCode practice problems.
 
 | Metric | Value |
 |--------|-------|
-| Total Problems | 40 |
-| Days Completed | 20 |
-| Last Updated | 2025-05-19 13:21:17 |
+| Total Problems | 42 |
+| Days Completed | 21 |
+| Last Updated | 2025-05-20 15:58:00 |
 
 ## Problems
+
+### Day 21
+ 
+| Problem | Difficulty | Solution |
+|---------|------------|----------|
+| [Pascal's Triangle II](https://leetcode.com/problems/pascals-triangle-ii/) | Easy | [✅](practice/day_21/pascals_triangle_ii.py) |
+| [Valid Parenthesis String](https://leetcode.com/problems/valid-parenthesis-string/description/) | Medium | [✅](practice/day_21/valid_parenthesis_string.py) |
 
 ### Day 20
  
