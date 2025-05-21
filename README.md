@@ -6,11 +6,18 @@ This repository tracks my daily LeetCode practice problems.
 
 | Metric | Value |
 |--------|-------|
-| Total Problems | 42 |
-| Days Completed | 21 |
-| Last Updated | 2025-05-20 15:58:00 |
+| Total Problems | 44 |
+| Days Completed | 22 |
+| Last Updated | 2025-05-21 19:14:33 |
 
 ## Problems
+
+### Day 22
+ 
+| Problem | Difficulty | Solution |
+|---------|------------|----------|
+| [Majority Element](https://leetcode.com/problems/majority-element/description/) | Easy | [✅](practice/day_22/majority_element.py) |
+| [Minimum Remove to Make Valid Parentheses](https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/description/) | Medium | [✅](practice/day_22/minimum_remove_to_make_valid_parentheses.py) |
 
 ### Day 21
  
