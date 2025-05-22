@@ -6,11 +6,18 @@ This repository tracks my daily LeetCode practice problems.
 
 | Metric | Value |
 |--------|-------|
-| Total Problems | 44 |
-| Days Completed | 22 |
-| Last Updated | 2025-05-21 19:14:33 |
+| Total Problems | 46 |
+| Days Completed | 23 |
+| Last Updated | 2025-05-23 00:19:23 |
 
 ## Problems
+
+### Day 23
+ 
+| Problem | Difficulty | Solution |
+|---------|------------|----------|
+| [Longest Valid Parentheses](https://leetcode.com/problems/longest-valid-parentheses/description/) | Hard | [✅](practice/day_23/longest_valid_parentheses.py) |
+| [Search Insert Position](https://leetcode.com/problems/search-insert-position/description/) | Easy | [✅](practice/day_23/search_insert_position.py) |
 
 ### Day 22
  
