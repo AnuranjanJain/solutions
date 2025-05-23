@@ -6,11 +6,18 @@ This repository tracks my daily LeetCode practice problems.
 
 | Metric | Value |
 |--------|-------|
-| Total Problems | 46 |
-| Days Completed | 23 |
-| Last Updated | 2025-05-23 00:19:23 |
+| Total Problems | 48 |
+| Days Completed | 24 |
+| Last Updated | 2025-05-23 17:15:24 |
 
 ## Problems
+
+### Day 24
+ 
+| Problem | Difficulty | Solution |
+|---------|------------|----------|
+| [Basic Calculator](https://leetcode.com/problems/basic-calculator/description/) | Hard | [✅](practice/day_24/basic_calculator.py) |
+| [Move Zeroes](https://leetcode.com/problems/move-zeroes/) | Easy | [✅](practice/day_24/move_zeroes.py) |
 
 ### Day 23
  
