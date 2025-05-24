@@ -6,11 +6,18 @@ This repository tracks my daily LeetCode practice problems.
 
 | Metric | Value |
 |--------|-------|
-| Total Problems | 48 |
-| Days Completed | 24 |
-| Last Updated | 2025-05-23 17:15:24 |
+| Total Problems | 50 |
+| Days Completed | 25 |
+| Last Updated | 2025-05-24 15:32:38 |
 
 ## Problems
+
+### Day 25
+ 
+| Problem | Difficulty | Solution |
+|---------|------------|----------|
+| [Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/description/) | Easy | [✅](practice/day_25/implement_stack_using_queues.py) |
+| [Rotate Array](https://leetcode.com/problems/rotate-array/submissions/1642885242/) | Medium | [✅](practice/day_25/rotate_array.py) |
 
 ### Day 24
  
