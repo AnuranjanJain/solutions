@@ -6,11 +6,18 @@ This repository tracks my daily LeetCode practice problems.
 
 | Metric | Value |
 |--------|-------|
-| Total Problems | 50 |
-| Days Completed | 25 |
-| Last Updated | 2025-05-24 15:32:38 |
+| Total Problems | 52 |
+| Days Completed | 26 |
+| Last Updated | 2025-05-25 23:58:44 |
 
 ## Problems
+
+### Day 26
+ 
+| Problem | Difficulty | Solution |
+|---------|------------|----------|
+| [Binary Tree Inorder Traversal](https://leetcode.com/problems/binary-tree-inorder-traversal/description/) | Easy | [✅](practice/day_26/binary_tree_inorder_traversal.py) |
+| [Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | Medium | [✅](practice/day_26/find_first_and_last_position_of_element_in_sorted_array.py) |
 
 ### Day 25
  
