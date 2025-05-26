@@ -6,11 +6,18 @@ This repository tracks my daily LeetCode practice problems.
 
 | Metric | Value |
 |--------|-------|
-| Total Problems | 52 |
-| Days Completed | 26 |
-| Last Updated | 2025-05-25 23:58:44 |
+| Total Problems | 54 |
+| Days Completed | 27 |
+| Last Updated | 2025-05-26 21:22:21 |
 
 ## Problems
+
+### Day 27
+ 
+| Problem | Difficulty | Solution |
+|---------|------------|----------|
+| [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) | Medium | [✅](practice/day_27/maximum_subarray.py) |
+| [Path Sum](https://leetcode.com/problems/path-sum/description/) | Easy | [✅](practice/day_27/path_sum.py) |
 
 ### Day 26
  
