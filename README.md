@@ -6,11 +6,18 @@ This repository tracks my daily LeetCode practice problems.
 
 | Metric | Value |
 |--------|-------|
-| Total Problems | 54 |
-| Days Completed | 27 |
-| Last Updated | 2025-05-26 21:22:21 |
+| Total Problems | 56 |
+| Days Completed | 28 |
+| Last Updated | 2025-05-27 21:55:26 |
 
 ## Problems
+
+### Day 28
+ 
+| Problem | Difficulty | Solution |
+|---------|------------|----------|
+| [Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/) | Easy | [✅](practice/day_28/minimum_depth_of_binary_tree.py) |
+| [Number of Subarrays With LCM Equal to K](https://leetcode.com/problems/number-of-subarrays-with-lcm-equal-to-k/) | Medium | [✅](practice/day_28/number_of_subarrays_with_lcm_equal_to_k.py) |
 
 ### Day 27
  
