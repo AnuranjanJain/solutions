@@ -6,11 +6,18 @@ This repository tracks my daily LeetCode practice problems.
 
 | Metric | Value |
 |--------|-------|
-| Total Problems | 56 |
-| Days Completed | 28 |
-| Last Updated | 2025-05-27 21:55:26 |
+| Total Problems | 58 |
+| Days Completed | 29 |
+| Last Updated | 2025-05-28 23:06:56 |
 
 ## Problems
+
+### Day 29
+ 
+| Problem | Difficulty | Solution |
+|---------|------------|----------|
+| [Kth Largest Element in an Array](https://leetcode.com/problems/kth-largest-element-in-an-array/description/) | Medium | [✅](practice/day_29/kth_largest_element_in_an_array.py) |
+| [Sum of Left Leaves](https://leetcode.com/problems/sum-of-left-leaves/description/) | Easy | [✅](practice/day_29/sum_of_left_leaves.py) |
 
 ### Day 28
  
