@@ -6,11 +6,18 @@ This repository tracks my daily LeetCode practice problems.
 
 | Metric | Value |
 |--------|-------|
-| Total Problems | 58 |
-| Days Completed | 29 |
-| Last Updated | 2025-05-28 23:06:56 |
+| Total Problems | 60 |
+| Days Completed | 30 |
+| Last Updated | 2025-05-29 16:00:02 |
 
 ## Problems
+
+### Day 30
+ 
+| Problem | Difficulty | Solution |
+|---------|------------|----------|
+| [Diameter of Binary Tree](https://leetcode.com/problems/diameter-of-binary-tree/) | Easy | [✅](practice/day_30/diameter_of_binary_tree.py) |
+| [Find the Duplicate Number](https://leetcode.com/problems/find-the-duplicate-number/description/) | Medium | [✅](practice/day_30/find_the_duplicate_number.py) |
 
 ### Day 29
  
