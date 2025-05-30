@@ -6,11 +6,18 @@ This repository tracks my daily LeetCode practice problems.
 
 | Metric | Value |
 |--------|-------|
-| Total Problems | 60 |
-| Days Completed | 30 |
-| Last Updated | 2025-05-29 16:00:02 |
+| Total Problems | 62 |
+| Days Completed | 31 |
+| Last Updated | 2025-05-30 20:22:07 |
 
 ## Problems
+
+### Day 31
+ 
+| Problem | Difficulty | Solution |
+|---------|------------|----------|
+| [Flipping an Image](https://leetcode.com/problems/flipping-an-image/) | Easy | [✅](practice/day_31/flipping_an_image.py) |
+| [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/description/) | Easy | [✅](practice/day_31/maximum_depth_of_binary_tree.py) |
 
 ### Day 30
  
