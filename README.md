@@ -6,11 +6,18 @@ This repository tracks my daily LeetCode practice problems.
 
 | Metric | Value |
 |--------|-------|
-| Total Problems | 62 |
-| Days Completed | 31 |
-| Last Updated | 2025-05-30 20:22:07 |
+| Total Problems | 64 |
+| Days Completed | 32 |
+| Last Updated | 2025-05-31 20:48:53 |
 
 ## Problems
+
+### Day 32
+ 
+| Problem | Difficulty | Solution |
+|---------|------------|----------|
+| [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) | Medium | [✅](practice/day_32/binary_tree_level_order_traversal.py) |
+| [Rotate Image](https://leetcode.com/problems/rotate-image/) | Medium | [✅](practice/day_32/rotate_image.py) |
 
 ### Day 31
  
