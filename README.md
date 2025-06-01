@@ -6,11 +6,18 @@ This repository tracks my daily LeetCode practice problems.
 
 | Metric | Value |
 |--------|-------|
-| Total Problems | 64 |
-| Days Completed | 32 |
-| Last Updated | 2025-05-31 20:48:53 |
+| Total Problems | 66 |
+| Days Completed | 33 |
+| Last Updated | 2025-06-01 22:54:54 |
 
 ## Problems
+
+### Day 33
+ 
+| Problem | Difficulty | Solution |
+|---------|------------|----------|
+| [Binary Tree Right Side View](https://leetcode.com/problems/binary-tree-right-side-view/description/) | Medium | [✅](practice/day_33/binary_tree_right_side_view.py) |
+| [Lexicographically Smallest Palindrome](https://leetcode.com/problems/lexicographically-smallest-palindrome/) | Easy | [✅](practice/day_33/lexicographically_smallest_palindrome.py) |
 
 ### Day 32
  
