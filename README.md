@@ -6,11 +6,18 @@ This repository tracks my daily LeetCode practice problems.
 
 | Metric | Value |
 |--------|-------|
-| Total Problems | 66 |
-| Days Completed | 33 |
-| Last Updated | 2025-06-01 22:54:54 |
+| Total Problems | 68 |
+| Days Completed | 34 |
+| Last Updated | 2025-06-02 23:58:52 |
 
 ## Problems
+
+### Day 34
+ 
+| Problem | Difficulty | Solution |
+|---------|------------|----------|
+| [Flatten Binary Tree to Linked List](https://leetcode.com/problems/flatten-binary-tree-to-linked-list/) | Medium | [✅](practice/day_34/flatten_binary_tree_to_linked_list.py) |
+| [Length of Last Word](https://leetcode.com/problems/length-of-last-word/description/) | Easy | [✅](practice/day_34/length_of_last_word.py) |
 
 ### Day 33
  
