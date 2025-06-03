@@ -6,11 +6,18 @@ This repository tracks my daily LeetCode practice problems.
 
 | Metric | Value |
 |--------|-------|
-| Total Problems | 68 |
-| Days Completed | 34 |
-| Last Updated | 2025-06-02 23:58:52 |
+| Total Problems | 70 |
+| Days Completed | 35 |
+| Last Updated | 2025-06-03 23:32:02 |
 
 ## Problems
+
+### Day 35
+ 
+| Problem | Difficulty | Solution |
+|---------|------------|----------|
+| [Lowest Common Ancestor of a Binary Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/description/) | Medium | [✅](practice/day_35/lowest_common_ancestor_of_a_binary_tree.py) |
+| [Number of Segments in a String](https://leetcode.com/problems/number-of-segments-in-a-string/description/) | Easy | [✅](practice/day_35/number_of_segments_in_a_string.py) |
 
 ### Day 34
  
