@@ -6,11 +6,18 @@ This repository tracks my daily LeetCode practice problems.
 
 | Metric | Value |
 |--------|-------|
-| Total Problems | 70 |
-| Days Completed | 35 |
-| Last Updated | 2025-06-03 23:32:02 |
+| Total Problems | 72 |
+| Days Completed | 36 |
+| Last Updated | 2025-06-04 23:18:36 |
 
 ## Problems
+
+### Day 36
+ 
+| Problem | Difficulty | Solution |
+|---------|------------|----------|
+| [Reverse Vowels of a String](https://leetcode.com/problems/reverse-vowels-of-a-string/description/) | Easy | [✅](practice/day_36/reverse_vowels_of_a_string.py) |
+| [Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/description/) | Medium | [✅](practice/day_36/sum_root_to_leaf_numbers.py) |
 
 ### Day 35
  
