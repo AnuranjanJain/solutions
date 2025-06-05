@@ -6,11 +6,18 @@ This repository tracks my daily LeetCode practice problems.
 
 | Metric | Value |
 |--------|-------|
-| Total Problems | 72 |
-| Days Completed | 36 |
-| Last Updated | 2025-06-04 23:18:36 |
+| Total Problems | 74 |
+| Days Completed | 37 |
+| Last Updated | 2025-06-05 22:30:00 |
 
 ## Problems
+
+### Day 37
+ 
+| Problem | Difficulty | Solution |
+|---------|------------|----------|
+| [Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/description/) | Medium | [✅](practice/day_37/binary_tree_zigzag_level_order_traversal.py) |
+| [Find First Palindromic String in the Array](https://leetcode.com/problems/find-first-palindromic-string-in-the-array/) | Easy | [✅](practice/day_37/find_first_palindromic_string_in_the_array.py) |
 
 ### Day 36
  
