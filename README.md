@@ -6,11 +6,25 @@ This repository tracks my daily LeetCode practice problems.
 
 | Metric | Value |
 |--------|-------|
-| Total Problems | 74 |
-| Days Completed | 37 |
-| Last Updated | 2025-06-05 22:30:00 |
+| Total Problems | 78 |
+| Days Completed | 39 |
+| Last Updated | 2025-06-07 17:46:27 |
 
 ## Problems
+
+### Day 39
+ 
+| Problem | Difficulty | Solution |
+|---------|------------|----------|
+| [Insert into a Binary Search Tree](https://leetcode.com/problems/insert-into-a-binary-search-tree/description/) | Medium | [✅](practice/day_39/insert_into_a_binary_search_tree.py) |
+| [Remove All Adjacent Duplicates In String](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/) | Easy | [✅](practice/day_39/remove_all_adjacent_duplicates_in_string.py) |
+
+### Day 38
+ 
+| Problem | Difficulty | Solution |
+|---------|------------|----------|
+| [Search in a Binary Search Tree](https://leetcode.com/problems/search-in-a-binary-search-tree/description/) | Easy | [✅](practice/day_38/search_in_a_binary_search_tree.py) |
+| [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/description/) | Easy | [✅](practice/day_38/valid_palindrome.py) |
 
 ### Day 37
  
