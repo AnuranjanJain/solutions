@@ -6,11 +6,18 @@ This repository tracks my daily LeetCode practice problems.
 
 | Metric | Value |
 |--------|-------|
-| Total Problems | 78 |
-| Days Completed | 39 |
-| Last Updated | 2025-06-07 17:46:27 |
+| Total Problems | 80 |
+| Days Completed | 40 |
+| Last Updated | 2025-06-08 16:47:46 |
 
 ## Problems
+
+### Day 40
+ 
+| Problem | Difficulty | Solution |
+|---------|------------|----------|
+| [Lowest Common Ancestor of a Binary Search Tree](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/) | Medium | [✅](practice/day_40/lowest_common_ancestor_of_a_binary_search_tree.py) |
+| [Rotate String](https://leetcode.com/problems/rotate-string/) | Easy | [✅](practice/day_40/rotate_string.py) |
 
 ### Day 39
  
