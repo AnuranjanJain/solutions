@@ -6,11 +6,18 @@ This repository tracks my daily LeetCode practice problems.
 
 | Metric | Value |
 |--------|-------|
-| Total Problems | 80 |
-| Days Completed | 40 |
-| Last Updated | 2025-06-08 16:47:46 |
+| Total Problems | 82 |
+| Days Completed | 41 |
+| Last Updated | 2025-06-09 20:27:05 |
 
 ## Problems
+
+### Day 41
+ 
+| Problem | Difficulty | Solution |
+|---------|------------|----------|
+| [Delete Node in a BST](https://leetcode.com/problems/delete-node-in-a-bst/description/) | Medium | [✅](practice/day_41/delete_node_in_a_bst.py) |
+| [Longest Common Prefix](https://leetcode.com/problems/longest-common-prefix/) | Easy | [✅](practice/day_41/longest_common_prefix.py) |
 
 ### Day 40
  
