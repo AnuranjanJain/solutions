@@ -6,11 +6,18 @@ This repository tracks my daily LeetCode practice problems.
 
 | Metric | Value |
 |--------|-------|
-| Total Problems | 82 |
-| Days Completed | 41 |
-| Last Updated | 2025-06-09 20:27:05 |
+| Total Problems | 84 |
+| Days Completed | 42 |
+| Last Updated | 2025-06-10 20:02:46 |
 
 ## Problems
+
+### Day 42
+ 
+| Problem | Difficulty | Solution |
+|---------|------------|----------|
+| [Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/) | Medium | [✅](practice/day_42/reverse_words_in_a_string.py) |
+| [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) | Medium | [✅](practice/day_42/validate_binary_search_tree.py) |
 
 ### Day 41
  
