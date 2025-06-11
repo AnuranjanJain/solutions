@@ -6,11 +6,18 @@ This repository tracks my daily LeetCode practice problems.
 
 | Metric | Value |
 |--------|-------|
-| Total Problems | 84 |
-| Days Completed | 42 |
-| Last Updated | 2025-06-10 20:02:46 |
+| Total Problems | 86 |
+| Days Completed | 43 |
+| Last Updated | 2025-06-11 22:52:12 |
 
 ## Problems
+
+### Day 43
+ 
+| Problem | Difficulty | Solution |
+|---------|------------|----------|
+| [Kth Smallest Element in a BST](https://leetcode.com/problems/kth-smallest-element-in-a-bst/description/) | Medium | [✅](practice/day_43/kth_smallest_element_in_a_bst.py) |
+| [Zigzag Conversion](https://leetcode.com/problems/zigzag-conversion/) | Medium | [✅](practice/day_43/zigzag_conversion.py) |
 
 ### Day 42
  
