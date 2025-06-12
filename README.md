@@ -6,11 +6,18 @@ This repository tracks my daily LeetCode practice problems.
 
 | Metric | Value |
 |--------|-------|
-| Total Problems | 86 |
-| Days Completed | 43 |
-| Last Updated | 2025-06-11 22:52:12 |
+| Total Problems | 88 |
+| Days Completed | 44 |
+| Last Updated | 2025-06-12 17:53:57 |
 
 ## Problems
+
+### Day 44
+ 
+| Problem | Difficulty | Solution |
+|---------|------------|----------|
+| [Convert Sorted List to Binary Search Tree](https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/description/) | Medium | [✅](practice/day_44/convert_sorted_list_to_binary_search_tree.py) |
+| [Maximum Number of Vowels in a Substring of Given Length](https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/) | Medium | [✅](practice/day_44/maximum_number_of_vowels_in_a_substring_of_given_length.py) |
 
 ### Day 43
  
