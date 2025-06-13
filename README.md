@@ -6,11 +6,18 @@ This repository tracks my daily LeetCode practice problems.
 
 | Metric | Value |
 |--------|-------|
-| Total Problems | 88 |
-| Days Completed | 44 |
-| Last Updated | 2025-06-12 17:53:57 |
+| Total Problems | 90 |
+| Days Completed | 45 |
+| Last Updated | 2025-06-13 17:56:10 |
 
 ## Problems
+
+### Day 45
+ 
+| Problem | Difficulty | Solution |
+|---------|------------|----------|
+| [Find the Town Judge](https://leetcode.com/problems/find-the-town-judge/description/) | Easy | [✅](practice/day_45/find_the_town_judge.py) |
+| [Greatest Common Divisor of Strings](https://leetcode.com/problems/greatest-common-divisor-of-strings/) | Easy | [✅](practice/day_45/greatest_common_divisor_of_strings.py) |
 
 ### Day 44
  
