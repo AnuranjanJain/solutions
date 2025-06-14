@@ -6,11 +6,18 @@ This repository tracks my daily LeetCode practice problems.
 
 | Metric | Value |
 |--------|-------|
-| Total Problems | 90 |
-| Days Completed | 45 |
-| Last Updated | 2025-06-13 17:56:10 |
+| Total Problems | 92 |
+| Days Completed | 46 |
+| Last Updated | 2025-06-14 22:42:05 |
 
 ## Problems
+
+### Day 46
+ 
+| Problem | Difficulty | Solution |
+|---------|------------|----------|
+| [Find Center of Star Graph](https://leetcode.com/problems/find-center-of-star-graph/) | Easy | [✅](practice/day_46/find_center_of_star_graph.py) |
+| [Prime Number of Set Bits in Binary Representation](https://leetcode.com/problems/prime-number-of-set-bits-in-binary-representation/) | Easy | [✅](practice/day_46/prime_number_of_set_bits_in_binary_representation.py) |
 
 ### Day 45
  
