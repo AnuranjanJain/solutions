@@ -6,11 +6,18 @@ This repository tracks my daily LeetCode practice problems.
 
 | Metric | Value |
 |--------|-------|
-| Total Problems | 92 |
-| Days Completed | 46 |
-| Last Updated | 2025-06-14 22:42:05 |
+| Total Problems | 94 |
+| Days Completed | 47 |
+| Last Updated | 2025-06-15 20:05:20 |
 
 ## Problems
+
+### Day 47
+ 
+| Problem | Difficulty | Solution |
+|---------|------------|----------|
+| [Number of 1 Bits](https://leetcode.com/problems/number-of-1-bits/description/) | Easy | [✅](practice/day_47/number_of_1_bits.py) |
+| [Number of Substrings Containing All Three Characters](https://leetcode.com/problems/number-of-substrings-containing-all-three-characters/description/) | Medium | [✅](practice/day_47/number_of_substrings_containing_all_three_characters.py) |
 
 ### Day 46
  
