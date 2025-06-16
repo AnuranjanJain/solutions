@@ -6,11 +6,18 @@ This repository tracks my daily LeetCode practice problems.
 
 | Metric | Value |
 |--------|-------|
-| Total Problems | 94 |
-| Days Completed | 47 |
-| Last Updated | 2025-06-15 20:05:20 |
+| Total Problems | 96 |
+| Days Completed | 48 |
+| Last Updated | 2025-06-16 22:22:43 |
 
 ## Problems
+
+### Day 48
+ 
+| Problem | Difficulty | Solution |
+|---------|------------|----------|
+| [Check If It Is a Good Array](https://leetcode.com/problems/check-if-it-is-a-good-array/) | Hard | [✅](practice/day_48/check_if_it_is_a_good_array.py) |
+| [Hamming Distance](https://leetcode.com/problems/hamming-distance/) | Easy | [✅](practice/day_48/hamming_distance.py) |
 
 ### Day 47
  
