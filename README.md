@@ -6,11 +6,24 @@ This repository tracks my daily LeetCode practice problems.
 
 | Metric | Value |
 |--------|-------|
-| Total Problems | 96 |
-| Days Completed | 48 |
-| Last Updated | 2025-06-16 22:22:43 |
+| Total Problems | 99 |
+| Days Completed | 50 |
+| Last Updated | 2025-06-18 16:15:27 |
 
 ## Problems
+
+### Day 50
+ 
+| Problem | Difficulty | Solution |
+|---------|------------|----------|
+| [Break a Palindrome](https://leetcode.com/problems/break-a-palindrome) | Medium | [✅](practice/day_50/break_a_palindrome.py) |
+
+### Day 49
+ 
+| Problem | Difficulty | Solution |
+|---------|------------|----------|
+| [Count Primes](https://leetcode.com/problems/count-primes/) | Medium | [✅](practice/day_49/count_primes.py) |
+| [Single Number](https://leetcode.com/problems/single-number/description/) | Easy | [✅](practice/day_49/single_number.py) |
 
 ### Day 48
  
